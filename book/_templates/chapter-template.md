@@ -25,9 +25,9 @@ A concrete scenario: what happened, what changed, what measurable outcome improv
 
 ## The framework
 ### The 72-Hour Lens
-- **Hypothesis:**  
-- **Smallest vertical slice:**  
-- **Measure:**  
+- **Hypothesis:**
+- **Smallest vertical slice:**
+- **Measure:**
 - **Decision:** pivot / persevere / stop
 
 > Add a simple diagram in `book/assets/diagrams/` and reference it here.
@@ -60,7 +60,7 @@ A concrete scenario: what happened, what changed, what measurable outcome improv
 ## Chapter checklist (Definition of Done)
 - [ ] Contains one real enterprise example
 - [ ] Includes one framework (diagram or structured steps)
-- [ ] Has 3–5 “observable” success signals
+- [ ] Has 3–5 observable success signals
 - [ ] Maps to at least 1 EBM KVA
 - [ ] Includes at least one AI usage pattern
 - [ ] Ends with a measurement-driven next step

@@ -1,7 +1,9 @@
 title: "From Hackathon to Production — The 72-Hour Mindset"
 author: "Stevo Perisic"
 language: "en"
+
 source: "book"
+
 exports:
   - pdf
   - epub

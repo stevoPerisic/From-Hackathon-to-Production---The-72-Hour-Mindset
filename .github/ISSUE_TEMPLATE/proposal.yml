@@ -1,0 +1,23 @@
+name: Proposal (bigger change)
+description: Propose structural/content changes that affect multiple chapters.
+title: "[Proposal] "
+labels: ["proposal"]
+body:
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacted chapters/parts
+    validations:
+      required: false
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale + expected reader outcome
+    validations:
+      required: true

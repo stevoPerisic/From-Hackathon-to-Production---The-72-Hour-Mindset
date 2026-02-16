@@ -1,0 +1,24 @@
+name: Idea
+description: Suggest a new idea, framework, or chapter.
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters (who benefits, what changes)
+    validations:
+      required: true
+  - type: input
+    id: kva
+    attributes:
+      label: Related EBM KVA
+      placeholder: "Time-to-Market / Current Value / Ability to Innovate / Unrealized Value"
+    validations:
+      required: false

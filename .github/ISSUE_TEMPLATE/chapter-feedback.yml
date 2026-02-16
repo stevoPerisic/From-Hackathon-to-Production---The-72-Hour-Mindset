@@ -1,0 +1,46 @@
+name: Chapter feedback
+description: Give feedback on a chapter (clarity, examples, structure, usefulness).
+title: "[Feedback] Chapter: "
+labels: ["feedback"]
+body:
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter file
+      placeholder: "book/01-part-i-mindset/01-illusion-of-progress.md"
+    validations:
+      required: true
+  - type: textarea
+    id: what_worked
+    attributes:
+      label: What worked
+      placeholder: "What was clear/useful/actionable?"
+    validations:
+      required: true
+  - type: textarea
+    id: what_confusing
+    attributes:
+      label: What was confusing
+      placeholder: "Where did you slow down or re-read?"
+    validations:
+      required: false
+  - type: textarea
+    id: missing
+    attributes:
+      label: What’s missing
+      placeholder: "Examples? diagrams? enterprise constraints?"
+    validations:
+      required: false
+  - type: dropdown
+    id: reader_type
+    attributes:
+      label: Reader type
+      options:
+        - Executive / GM+
+        - Director / Senior Manager
+        - Engineering Manager
+        - Product Manager
+        - IC Engineer
+        - Scrum Master / Coach
+    validations:
+      required: true

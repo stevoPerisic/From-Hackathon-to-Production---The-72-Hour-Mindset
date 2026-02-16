@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+exports/pdf/*
+exports/epub/*
+exports/docx/*
+!exports/pdf/.gitkeep
+!exports/epub/.gitkeep
+!exports/docx/.gitkeep

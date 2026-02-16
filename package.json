@@ -1,0 +1,13 @@
+{
+  "name": "from-hackathon-to-production",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint:md": "markdownlint \"book/**/*.md\" \"README.md\"",
+    "new:chapter": "node scripts/new-chapter.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "markdownlint-cli": "^0.41.0"
+  }
+}

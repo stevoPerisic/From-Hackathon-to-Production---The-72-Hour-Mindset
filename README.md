@@ -2,6 +2,10 @@
 
 This repository contains the source manuscript (Markdown) for the book.
 
+## Canonical references
+- Concept north star: `/drafts/book-concept-north-star.md`
+- Canonical chapter order: `/CHAPTER_MANIFEST.md`
+
 ## How this repo works
 - Chapters live in `/book/**`
 - Draft fragments live in `/drafts/**`
